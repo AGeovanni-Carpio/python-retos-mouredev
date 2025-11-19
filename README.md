@@ -26,4 +26,4 @@ Ingeniero en Energía | En transición al desarrollo de software
 
 ---
 
-_Última actualización: Noviembre 2025_
+_Última actualización: Noviembre 2025_# Test SSH
