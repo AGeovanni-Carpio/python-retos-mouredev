@@ -115,3 +115,23 @@ def obteniendo_coordenadas(x):
         return x,y
     return coordenada_y(2)
 print(f"Coordenadas {obteniendo_coordenadas(5)}")
+
+#Haremos el reto opcional
+def funcion_cambiante (texto_1, texto_2):
+    aumentador = 0
+    for i in range(1,101):
+        if i % 3 == 0 and i % 5 == 0:
+            print(texto_1+texto_2)
+        elif i % 3 == 0:
+            print(texto_1)
+        elif i % 5 == 0:
+            print(texto_2)
+        else:
+            aumentador+= 1
+            print(i)
+
+    return aumentador
+
+veamos = funcion_cambiante("Hola", "Veamos")
+print(f"EL número de expresiones NO strings son: {veamos}")
+        
